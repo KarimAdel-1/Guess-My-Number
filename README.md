@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Guess My Number
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+"Guess My Number" is a simple and fun number-guessing game built with React. The objective is to guess a randomly generated number between 1 and 20. With each guess, you'll receive feedback on whether your guess is too high, too low, or correct. The game keeps track of your score and high score, and provides visual feedback with background color changes.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Random Number Generation:** The game generates a random number between 1 and 20.
+- **Guessing Feedback:** Receive feedback if your guess is too high, too low, or correct.
+- **Score Tracking:** Keep track of your current score and high score.
+- **Visual Feedback:** Background color changes to green when you guess correctly and red when you lose.
+- **Reset Functionality:** Start a new game and reset the score with a single click.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get started with the project, follow these steps:
 
-### `npm test`
+1. **Clone the Repository:**
+   ```sh
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
+   Replace `your-username` and `your-repo-name` with your GitHub username and repository name.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Navigate to the Project Directory:**
+   ```sh
+   cd your-repo-name
+   ```
 
-### `npm run build`
+3. **Install Dependencies:**
+   Make sure you have Node.js and npm installed. Then, install the project dependencies:
+   ```sh
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Start the Development Server:**
+   ```sh
+   npm start
+   ```
+   This will start the development server and open the application in your default web browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Enter a number between 1 and 20 in the input field.
+2. Click the "Check!" button to submit your guess.
+3. The game will provide feedback on your guess and update the score.
+4. If you guess correctly, the background will turn green and your high score will be updated if necessary.
+5. If you run out of guesses, the background will turn red and a "You Lose!" message will be displayed.
+6. Click the "Again!" button to start a new game.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Feel free to open an issue or submit a pull request if you have any suggestions or improvements. Contributions are welcome!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Fork the Repository:** Click the "Fork" button on GitHub.
+2. **Clone Your Fork:** 
+   ```sh
+   git clone https://github.com/your-username/your-forked-repo-name.git
+   ```
+3. **Create a Branch:**
+   ```sh
+   git checkout -b feature-branch
+   ```
+4. **Make Your Changes and Commit:**
+   ```sh
+   git add .
+   git commit -m "Your commit message"
+   ```
+5. **Push to Your Fork:**
+   ```sh
+   git push origin feature-branch
+   ```
+6. **Create a Pull Request:** Go to your fork on GitHub and create a pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Acknowledgments
 
-## Learn More
+- **React:** For providing a powerful and flexible library for building user interfaces.
+- **GitHub:** For hosting and version control.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
