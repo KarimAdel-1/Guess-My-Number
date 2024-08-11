@@ -18,13 +18,13 @@ To get started with the project, follow these steps:
 
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/KarimAdel-1/Guess-My-Number.git
    ```
-   Replace `your-username` and `your-repo-name` with your GitHub username and repository name.
+
 
 2. **Navigate to the Project Directory:**
    ```sh
-   cd your-repo-name
+   cd Guess-My-Number
    ```
 
 3. **Install Dependencies:**
@@ -55,7 +55,7 @@ Feel free to open an issue or submit a pull request if you have any suggestions 
 1. **Fork the Repository:** Click the "Fork" button on GitHub.
 2. **Clone Your Fork:** 
    ```sh
-   git clone https://github.com/your-username/your-forked-repo-name.git
+   git clone https://github.com/KarimAdel-1/Guess-My-Number.git
    ```
 3. **Create a Branch:**
    ```sh
