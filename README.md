@@ -1,6 +1,6 @@
 # Guess My Number
 
-## Overview
+## Overview 
 
 "Guess My Number" is a simple and fun number-guessing game built with React. The objective is to guess a randomly generated number between 1 and 20. With each guess, you'll receive feedback on whether your guess is too high, too low, or correct. The game keeps track of your score and high score, and provides visual feedback with background color changes.
 
